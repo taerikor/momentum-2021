@@ -26,7 +26,7 @@ function paintGreeting(text) {
   greeting.classList.add(SHOWING_CN);
   const dayTime = new Date();
   const hours = dayTime.getHours();
-  greeting.innerText = hours < 12 ? `WAKE THE F UP ${text}` : hours <18 ? `DO THE F WORK ${text}` : `How was F your day? ${text}`
+  greeting.innerText = hours < 12 ? `Good Morning! ${text}` : hours <18 ? `Good Evening! ${text}` : `How was your day? ${text}`
 }
 
 function loadName() {
