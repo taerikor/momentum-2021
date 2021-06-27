@@ -1,9 +1,10 @@
-const form = document.querySelector(".greeting .js-form")
-const input = document.querySelector(".greeting .js-input")
-const text = document.querySelector(".greeting .js-text")
-const button = document.querySelector(".greeting .js-button")
-const textBox = document.querySelector(".greeting .name_container")
-const errorText = document.querySelector(".greeting .js-errorText")
+const greeting = document.querySelector(".greeting")
+const form = greeting.querySelector(".js-form")
+const input = greeting.querySelector(".js-input")
+const text = greeting.querySelector(".js-text")
+const button = greeting.querySelector(".js-button")
+const textBox = greeting.querySelector(".name_container")
+const errorText = greeting.querySelector(".js-errorText")
 
 const NAME_LS = 'name'
 const HIDDEN_CN = 'hidden'
