@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<lang lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,16 @@
   <title> Momentum </title>
 </head>
 <body>
-  <div>hello?</div>
-  <script src="./src/app.js"></script>
+  <div class="greeting">
+    <form class="js-form">
+      <input class="js-input" type="text" placeholder="What's your name?"/>
+      <p class="js-errorText hidden">Please Type your name</p>
+    </form>
+    <div class="name_container hidden">
+    <span class="js-text">hello</span>
+    <button class="js-button">X</button>
+    </div>
+  </div>
+  <script src="./src/greeting.js"></script>
 </body>
-</html>
+</lang>
