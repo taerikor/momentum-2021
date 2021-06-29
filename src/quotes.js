@@ -42,6 +42,7 @@ const quotes = [
     },
   ];
 
+
   const todayQuotes = quotes[Math.floor(Math.random() * quotes.length)]
 
   const quote = document.querySelector("#quotes span:first-child").innerText = todayQuotes.quote
